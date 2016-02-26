@@ -1,2 +1,5 @@
 Q: What happens when you initialize a repository? Why do you need to do it?
 A: the shell creates a .git which is a system file designed to be read only by machines. this file will then tell git that we are dealing with a repository and we can run the usual commands as log or status
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+A: The working directory has files which are pretty much stable, that being the starting point or the base of our project. the repository is  like a checkpoint while the staging area is like game in-play :) Staging area offeres the freedom of experimenting and changing our files
