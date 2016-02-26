@@ -1,0 +1,2 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+A: the shell creates a .git which is a system file designed to be read only by machines. this file will then tell git that we are dealing with a repository and we can run the usual commands as log or status
