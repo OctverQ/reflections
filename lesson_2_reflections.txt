@@ -3,3 +3,18 @@ A: the shell creates a .git which is a system file designed to be read only by m
 
 Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
 A: The working directory has files which are pretty much stable, that being the starting point or the base of our project. the repository is  like a checkpoint while the staging area is like game in-play :) Staging area offeres the freedom of experimenting and changing our files
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+A: We only add to staging area the files that reflect the logical change we want to commit
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A: If we want to bring new ideas into the projects we are working on
+
+Q: How do the diagrams help you visualize the branch structure?
+A: Makes it clear where they split and what commone elements they have
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A: All the commits are put together in 1 single master branch. in the diagram we can see that the new branch tip which is also the last commit has 2 parent commits
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A: Its faster but can result in messy code
